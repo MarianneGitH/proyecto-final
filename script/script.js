@@ -51,7 +51,7 @@ function toggleSections(){
             default:
                 memoriasElement.style.display = "none";
                 creenciaElement.style.display = "none";
-                hobbieElemento.style.display = "block";
+                hobbieElement.style.display = "block";
 
                 creenciaBtnElement.style.backgroundColor = "#f47c24";
                 memoriasBtnElement.style.backgroundColor = "#f47c24";
