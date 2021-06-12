@@ -128,20 +128,20 @@ button:hover {
 /*fin Biografia*/
 
 /*Galleria*/
-/*#gallery {
+#gallery {
     margin: 20px 0;
-}*/
+}
 
 .img-card {
     display: inline-block;
     width: 300px;
 }
-/*.img-card img {
+.img-card img {
     width: 100px;
     max-width: 300px; 
     min-width: 100px;
     box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 /14%), 0 1px 18px 0 rgb(0 0 0 /12%);
-}*/
+}
 
 .img-card img :hover {
     transform: scale(1.1);
