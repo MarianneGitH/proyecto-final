@@ -131,9 +131,7 @@ button:hover {
 #gallery {
     margin: 20px 0;
 }
-#memorias, #creencia {
-    display: none;
-}
+
 .img-card {
     display: inline-block;
     margin: 10px 2px;
@@ -158,4 +156,5 @@ button:hover {
 .img-card {
     display: inline-block;
     width: 300px;
+}
 /*fin Galleria*/
