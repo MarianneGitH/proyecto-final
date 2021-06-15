@@ -1,14 +1,14 @@
-/*Globales*/
+/*Estilos globales*/
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     max-width: 1280px;
     margin: 0 auto;
 }
 header {
-padding: 20px;
-color: #fff;
-background: #8fadc8;
-box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 /14%), 0 1px 18px 0 rgb(0 0 0 /12%);
+    padding: 20px;
+    color: #fff;
+    background: #8fadc8;
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 /14%), 0 1px 18px 0 rgb(0 0 0 /12%);
 }
 #logo {
     display: inline-block;
@@ -16,18 +16,18 @@ box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 /14%), 0 1px
     width: 100%;
     border-radius: 12px;
     margin-right: 10px;
-    }
+}
 h1 {
     display: inline-block;
     font-size: 2.5em;
     margin: 0;
 }
 h2, h3 {
-    color: hsl(138, 13%, 50%);
+    color: #3c5086;
 }
 #main-nav {
     padding: 10px 10px 10px 0;
-    background-color: hsl(211, 18%, 27%);
+    background-color: rgb(56, 68, 81);
     box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 /14%), 0 1px 18px 0 rgb(0 0 0 /12%);
 }
 #main-nav a {
@@ -39,7 +39,7 @@ h2, h3 {
     margin-left: 6px;
 }
 #main nav a:hover {
-    background-color: #5a0302;
+    background-color: rgb(56, 68, 81);
 }
 #main-nav a:first-child {
     margin-left: 0;
@@ -50,7 +50,7 @@ main section {
 }
 footer {
     color:#fff;
-    background: #878992;
+    background: #8fadc8;
     padding: 20px;
 }
 #social-nav {
@@ -68,7 +68,7 @@ small {
     top: -3px;
 }
 button {
-    background-color: #f47c24;
+    background-color: #878992;
     color: #fff;
     border-radius: 7px;
     border: none;
@@ -78,7 +78,7 @@ button {
     font-weight: bold;
 }
 button:hover {
-    background-color: #5a0302 !important;
+    background-color: #ababac !important;
 }
 /*fin Globlales*/
 /*Pag Inicio*/
@@ -131,10 +131,12 @@ button:hover {
 #gallery {
     margin: 20px 0;
 }
-
+#memorias, #creencia {
+    display: none;
+}
 .img-card {
     display: inline-block;
-    width: 300px;
+    margin: 10px 2px;
 }
 .img-card img {
     width: 100px;
@@ -142,16 +144,12 @@ button:hover {
     min-width: 100px;
     box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 /14%), 0 1px 18px 0 rgb(0 0 0 /12%);
 }
-
 .img-card img :hover {
     transform: scale(1.1);
 }
 #hobbie-btn {
-    background-color: #5a0302;
+    background-color: #878992;
 }
-#memorias, #creencia {
 
-    display: none;
-}
 
 /*fin Galleria*/

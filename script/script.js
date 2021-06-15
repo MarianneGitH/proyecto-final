@@ -1,25 +1,17 @@
+
+// Funcion para biografia
 function toggleSections(){
-
-    var textoOculto = document.getElementById("textoOculto");
-
-
-
-    if (textoOculto.style.display == "block") {
-
-        textoOculto.style.display = "none";
-
-        document.getElementById("toggleSections").textContent = "Leer mas";
-
+    var readMoreContentElement = document.getElementById("read-more-content");
+    var readMoreButton = document.getElementById("readMore");
+    if (readMoreContentElement.style.display == "block") {
+        readMoreContentElement.style.display = "none";
+        readMoreButton.textContent = "Leer mas";
     } else {
-
-        textoOculto.style.display ="block";
-
-        document.getElementById("toggleSections").textContent = "Leer menos";
-
+        readMoreContentElement.style.display ="block";
+        readMoreButton.textContent = "Leer menos";
     }
-
 }
-    
+    //Funcion para galeria 
     function showCategory(type){
         var memoriasElement = document.getElementById("memorias");
         var creenciaElement = document.getElementById("creencia");
@@ -35,27 +27,27 @@ function toggleSections(){
                 creenciaElement.style.display = "none";
                 memoriasElement.style.display = "block";
 
-                hobbieBtnElement.style.backgroundColor = "#f47c24";
-                creenciaBtnElement.style.backgroundColor = "#f47c24";
-                memoriasBtnElement.style.backgroundColor = "#5a0302";
+                hobbieBtnElement.style.backgroundColor = "#ababac";
+                creenciaBtnElement.style.backgroundColor = "#ababac";
+                memoriasBtnElement.style.backgroundColor = "#878992";
             break;
             case "creencia":
                 hobbieElement.style.display = "none";
                 memoriasElement.style.display ="none";
                 creenciaElement.style.display = "block";
                 
-                memoriasBtnElement.style.backgroundColor = "#f47c24";
-                hobbieBtnElement.style.backgroundColor = "#f47c24";
-                creenciaBtnElement.style.backgroundColor = "#5a0302";
+                memoriasBtnElement.style.backgroundColor = "#ababac";
+                hobbieBtnElement.style.backgroundColor = "##ababac";
+                creenciaBtnElement.style.backgroundColor = "#878992";
                 break;    
             default:
                 memoriasElement.style.display = "none";
                 creenciaElement.style.display = "none";
                 hobbieElement.style.display = "block";
 
-                creenciaBtnElement.style.backgroundColor = "#f47c24";
-                memoriasBtnElement.style.backgroundColor = "#f47c24";
-                hobbieBtnElement.style.backgroundColor = "#5a0302";
+                creenciaBtnElement.style.backgroundColor = "#ababac";
+                memoriasBtnElement.style.backgroundColor = "#ababac";
+                hobbieBtnElement.style.backgroundColor = "#878992";
                 break;
         }
     }        
